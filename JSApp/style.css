@@ -1,1 +1,209 @@
-﻿
+﻿figure {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    outline: none;
+}
+
+input:hover {
+    border-color: #50E3C2;
+    background-color: #F0F8FF;
+}
+
+input:disabled {
+    background-color: #E0E0E0;
+    color: #A0A0A0;
+    cursor: not-allowed;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    background-color: gray;
+    border-color: #4A90E2;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+/* Выбирает все <p>, которые находятся внутри <div> */
+div p {
+    color: blue;
+}
+
+/* Выбирает только <p>, которые являются непосредственными дочерними элементами .container */
+.container > p {
+    color: green;
+}
+
+/* Выбирает <p>, который непосредственно следует за <h1> */
+h1 + p {
+    color: red;
+}
+
+/* Выбирает все <p>, которые следуют за <h1> на одном уровне вложенности */
+h1 ~ p {
+    color: purple;
+}
+
+/* Выбирает все элементы, у которых есть атрибут title */
+[title] {
+    color: blue;
+}
+
+/* Выбирает все элементы, у которых атрибут title имеет значение "Пример" */
+[title="Пример"] {
+    color: white;
+}
+
+/* Выбирает все элементы, у которых атрибут title начинается с "Начало" */
+[title^="Начало"] {
+    color: red;
+}
+
+/* Выбирает все элементы, у которых атрибут title заканчивается на "конец" */
+[title$="конец"] {
+    color: orange;
+}
+
+/* Выбирает все элементы, у которых атрибут title содержит "середина" */
+[title*="середина"] {
+    color: purple;
+}
+
+/* Выбирает все элементы, у которых атрибут class содержит "highlight" в списке классов */
+[class~="highlight"] {
+    background-color: yellow;
+}
+
+p[lang|="ru"] {
+    font-style: italic;
+}
+
+/* Добавляет стрелку перед каждым элементом списка */
+li::before {
+    content: "→ ";
+    color: red;
+}
+
+/* Добавляет точку после каждого элемента списка */
+li::after {
+    content: " •";
+    color: blue;
+}
+
+/* Увеличивает и изменяет цвет первой буквы каждого абзаца */
+p::first-letter {
+    font-size: 2em;
+    color: green;
+}
+
+/* Изменяет цвет и делает полужирной первую строку каждого абзаца */
+p::first-line {
+    color: navy;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(240, 248, 255); /* Цвет фона: aliceblue */
+}
+
+h1 {
+    color: #4CAF50; /* Зеленый */
+}
+
+p {
+    color: hsl(210, 100%, 50%); /* Синий */
+}
+
+div {
+    background-color: rgba(255, 99, 71, 0.6); /* Полупрозрачный цвет томата */
+}
+
+span {
+    color: hsla(210, 100%, 50%, 0.8); /* Полупрозрачный синий */
+}
+
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #333333;
+    --font-size: 18px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+p {
+    font-size: 16px;
+}
+
+p {
+    font-size: 150%; /* 150% базового размера шрифта */
+    font-size: 1.5em; /* 1.5 раза больше базового размера шрифта */
+    font-size: 1.5rem; /* размер относительно размера шрифта элемента <html> */
+}
+
+p {
+    font-size: 2vw; /* 2% от ширины "вьюпорта" */
+    font-size: 2vh; /* 2% от высоты "вьюпорта" */
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2'), url('fonts/MyCustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
