@@ -1,7 +1,4 @@
 
 *.vsidx
-*.vsidx
-/JSApp/.vs/JSApp/FileContentIndex
-JSApp/.vs/JSApp/FileContentIndex/9c0c720c-3ed6-44cf-b282-7cfc870d7390.vsidx
-JSApp/.vs/slnx.sqlite
+*.vs
 *.config
