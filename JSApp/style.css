@@ -1,4 +1,8 @@
-﻿figure {
+﻿
+
+
+
+/*figure {
     border: 3px solid #ccc;
     padding: 10px;
     margin: 20px;
@@ -47,105 +51,105 @@ input[type="radio"]:checked {
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #000000;
-}
+}*/
 
 /* Выбирает все <p>, которые находятся внутри <div> */
-div p {
+/*div p {
     color: blue;
-}
+}*/
 
 /* Выбирает только <p>, которые являются непосредственными дочерними элементами .container */
-.container > p {
+/*.container > p {
     color: green;
-}
+}*/
 
 /* Выбирает <p>, который непосредственно следует за <h1> */
-h1 + p {
+/*h1 + p {
     color: red;
-}
+}*/
 
 /* Выбирает все <p>, которые следуют за <h1> на одном уровне вложенности */
-h1 ~ p {
+/*h1 ~ p {
     color: purple;
-}
+}*/
 
 /* Выбирает все элементы, у которых есть атрибут title */
-[title] {
+/*[title] {
     color: blue;
-}
+}*/
 
 /* Выбирает все элементы, у которых атрибут title имеет значение "Пример" */
-[title="Пример"] {
+/*[title="Пример"] {
     color: white;
-}
+}*/
 
 /* Выбирает все элементы, у которых атрибут title начинается с "Начало" */
-[title^="Начало"] {
+/*[title^="Начало"] {
     color: red;
-}
+}*/
 
 /* Выбирает все элементы, у которых атрибут title заканчивается на "конец" */
-[title$="конец"] {
+/*[title$="конец"] {
     color: orange;
-}
+}*/
 
 /* Выбирает все элементы, у которых атрибут title содержит "середина" */
-[title*="середина"] {
+/*[title*="середина"] {
     color: purple;
-}
+}*/
 
 /* Выбирает все элементы, у которых атрибут class содержит "highlight" в списке классов */
-[class~="highlight"] {
+/*[class~="highlight"] {
     background-color: yellow;
 }
 
 p[lang|="ru"] {
     font-style: italic;
-}
+}*/
 
 /* Добавляет стрелку перед каждым элементом списка */
-li::before {
+/*li::before {
     content: "→ ";
     color: red;
-}
+}*/
 
 /* Добавляет точку после каждого элемента списка */
-li::after {
+/*li::after {
     content: " •";
     color: blue;
-}
+}*/
 
 /* Увеличивает и изменяет цвет первой буквы каждого абзаца */
-p::first-letter {
+/*p::first-letter {
     font-size: 2em;
     color: green;
-}
+}*/
 
 /* Изменяет цвет и делает полужирной первую строку каждого абзаца */
-p::first-line {
+/*p::first-line {
     color: navy;
     font-weight: bold;
 }
 
 body {
-    background-color: rgb(240, 248, 255); /* Цвет фона: aliceblue */
-}
+    background-color: rgb(240, 248, 255);*/ /* Цвет фона: aliceblue */
+/*}
 
 h1 {
-    color: #4CAF50; /* Зеленый */
-}
+    color: #4CAF50;*/ /* Зеленый */
+/*}
 
 p {
-    color: hsl(210, 100%, 50%); /* Синий */
-}
+    color: hsl(210, 100%, 50%);*/ /* Синий */
+/*}
 
 div {
-    background-color: rgba(255, 99, 71, 0.6); /* Полупрозрачный цвет томата */
-}
+    background-color: rgba(255, 99, 71, 0.6);*/ /* Полупрозрачный цвет томата */
+/*}
 
 span {
-    color: hsla(210, 100%, 50%, 0.8); /* Полупрозрачный синий */
-}
+    color: hsla(210, 100%, 50%, 0.8);*/ /* Полупрозрачный синий */
+/*}
 
 :root {
     --bg-color: #f0f0f0;
@@ -164,15 +168,15 @@ p {
 }
 
 p {
-    font-size: 150%; /* 150% базового размера шрифта */
-    font-size: 1.5em; /* 1.5 раза больше базового размера шрифта */
-    font-size: 1.5rem; /* размер относительно размера шрифта элемента <html> */
-}
+    font-size: 150%;*/ /* 150% базового размера шрифта */
+    /*font-size: 1.5em;*/ /* 1.5 раза больше базового размера шрифта */
+    /*font-size: 1.5rem;*/ /* размер относительно размера шрифта элемента <html> */
+/*}
 
 p {
-    font-size: 2vw; /* 2% от ширины "вьюпорта" */
-    font-size: 2vh; /* 2% от высоты "вьюпорта" */
-}
+    font-size: 2vw;*/ /* 2% от ширины "вьюпорта" */
+    /*font-size: 2vh;*/ /* 2% от высоты "вьюпорта" */
+/*}
 
 body {
     font-family: 'Times New Roman', serif;
@@ -206,4 +210,4 @@ body {
 
 body {
     font-family: 'MyCustomFont', sans-serif;
-}
+}*/
