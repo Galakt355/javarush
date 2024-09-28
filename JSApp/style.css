@@ -2,7 +2,638 @@
 
 
 
-/*figure {
+/*.wrapper {
+    height: 200px;
+    overflow: auto;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.content {
+    background: linear-gradient(white, lightgray);
+}
+
+
+.wrapper {
+    height: 200px;
+    overflow: auto;
+}
+
+.fixed {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.content {
+    background: linear-gradient(white, lightgray);
+}
+
+
+.block {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline {
+    background-color: lightcoral;
+    margin: 5px;
+    padding: 5px;
+}*/
+
+
+
+/*.container {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.main {
+    float: left;
+    width: 75%;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.footer {
+    clear: both;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.float-left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.float-right {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.clear {
+    clear: both;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.content {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+
+.float-left {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.float-right {
+    float: right;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.content {
+    background-color: lightgrey;
+    padding: 10px;
+}*/
+
+
+
+/*.wrapper {
+    height: 200px;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: deepskyblue;
+    color: white;
+}
+
+tbody {
+    min-height: 300px;
+    display: block;
+}
+
+    tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+
+.wrapper {
+    height: 200px;
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.content {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+
+.wrapper {
+    height: 200px;
+    overflow: auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: deepskyblue;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.content {
+    margin-top: 25px;
+    background-color: lightgrey;
+    padding: 20px;
+}*/
+
+
+
+/*
+
+
+
+.wrapper {
+    height: 150px;
+    overflow: auto;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 200px;
+    background-color: #9b59b6;
+    color: white;
+    text-align: center;
+}
+
+.content-box {
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 2px solid #bdc3c7;
+    width: 400px;
+}
+
+
+.wrapper {
+    max-height: 150px;
+    overflow: auto;
+}
+
+.fixed-element {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 150px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    background: linear-gradient(white, gray);
+}
+
+
+.wrapper {
+    height: 150px;
+    overflow: auto;
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+}
+
+.content {
+    margin-left: 220px;
+    background: linear-gradient(white, gray);
+}
+
+
+.wrapper {
+    height: 150px;
+    overflow: auto;
+}
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    margin-top: 60px;
+    background: linear-gradient(white, gray);
+}
+
+.wrapper {
+    height: 150px;
+    overflow: auto;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.content {
+    background: linear-gradient(white, gray);
+}
+
+
+
+.dashboard {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #f0f0f0;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.main-content {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #fff;
+}
+
+
+.player {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+}
+
+.play-button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.volume-control {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.wrapper {
+    min-height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+.box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+}
+
+
+
+.container {
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.box {
+    position: relative;
+    background-color: #e74c3c;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+}
+
+.box1 {
+    top: 20px;
+}
+
+.box2 {
+    left: 20px;
+}
+
+.container {
+    min-height: 200px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.static-box {
+    background-color: lightgray;
+}
+
+.relative-top {
+    position: relative;
+    top: 20px;
+    background-color: lightblue;
+}
+
+
+
+.container {
+    min-height: 300px;
+}
+
+.box {
+    position: absolute;
+    min-width: 125px;
+    min-height: 125px;
+    color: white;
+}
+
+.box1 {
+    z-index: -1;
+    top: 100px;
+    left: 100px;
+    background-color: #3498db;
+}
+
+.box2 {
+    z-index: 0;
+    top: 150px;
+    left: 150px;
+    background-color: #e74c3c;
+}
+
+.parent {
+    position: relative;
+    z-index: 10;
+    min-height: 300px;
+    padding: 20px;
+    color: white;
+    background-color: #f1c40f;
+}
+
+.child-blue {
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    min-width: 125px;
+    min-height: 125px;
+    background-color: #3498db;
+}
+
+.child-red {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 100px;
+    min-width: 125px;
+    min-height: 125px;
+    background-color: #e74c3c;
+}
+
+.wrapper {
+    min-height: 300px;
+}
+
+.box {
+    position: absolute;
+    min-width: 125px;
+    min-height: 125px;
+    color: white;
+}
+
+.box1 {
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+}
+
+.box2 {
+    z-index: 2;
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+}
+
+.box3 {
+    z-index: 0;
+    top: 150px;
+    left: 150px;
+    background-color: green;
+}
+
+
+
+.sticky-box {
+    position: sticky;
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    top: 0;
+}
+
+.text {
+    margin-top: 15px;
+}
+
+.content {
+    height: 200px;
+    background-color: #ecf0f1;
+    overflow: auto;
+}
+
+
+
+.container {
+    height: 200px;
+    overflow: auto;
+}
+
+.fixed-box {
+    position: fixed;
+    background-color: #f39c12;
+    color: white;
+    padding: 20px;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+.container {
+    position: relative;
+}
+
+.box {
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: #2ecc71;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    background-color: #e74c3c;
+}
+
+
+
+.box {
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: #2ecc71;
+}
+
+.relative-box {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    color: white;
+    background-color: #e74c3c;
+}
+
+
+
+.static-box {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+figure {
     border: 3px solid #ccc;
     padding: 10px;
     margin: 20px;
@@ -51,105 +682,105 @@ input[type="radio"]:checked {
     margin: 0 auto;
     padding: 20px;
     border: 2px solid #000000;
-}*/
+}
 
-/* Выбирает все <p>, которые находятся внутри <div> */
-/*div p {
+ Выбирает все <p>, которые находятся внутри <div> 
+div p {
     color: blue;
-}*/
+}
 
-/* Выбирает только <p>, которые являются непосредственными дочерними элементами .container */
-/*.container > p {
+ Выбирает только <p>, которые являются непосредственными дочерними элементами .container 
+.container > p {
     color: green;
-}*/
+}
 
-/* Выбирает <p>, который непосредственно следует за <h1> */
-/*h1 + p {
+ Выбирает <p>, который непосредственно следует за <h1> 
+h1 + p {
     color: red;
-}*/
+}
 
-/* Выбирает все <p>, которые следуют за <h1> на одном уровне вложенности */
-/*h1 ~ p {
+ Выбирает все <p>, которые следуют за <h1> на одном уровне вложенности 
+h1 ~ p {
     color: purple;
-}*/
+}
 
-/* Выбирает все элементы, у которых есть атрибут title */
-/*[title] {
+ Выбирает все элементы, у которых есть атрибут title 
+[title] {
     color: blue;
-}*/
+}
 
-/* Выбирает все элементы, у которых атрибут title имеет значение "Пример" */
-/*[title="Пример"] {
+ Выбирает все элементы, у которых атрибут title имеет значение "Пример" 
+[title="Пример"] {
     color: white;
-}*/
+}
 
-/* Выбирает все элементы, у которых атрибут title начинается с "Начало" */
-/*[title^="Начало"] {
+ Выбирает все элементы, у которых атрибут title начинается с "Начало" 
+[title^="Начало"] {
     color: red;
-}*/
+}
 
-/* Выбирает все элементы, у которых атрибут title заканчивается на "конец" */
-/*[title$="конец"] {
+ Выбирает все элементы, у которых атрибут title заканчивается на "конец" 
+[title$="конец"] {
     color: orange;
-}*/
+}
 
-/* Выбирает все элементы, у которых атрибут title содержит "середина" */
-/*[title*="середина"] {
+ Выбирает все элементы, у которых атрибут title содержит "середина" 
+[title*="середина"] {
     color: purple;
-}*/
+}
 
-/* Выбирает все элементы, у которых атрибут class содержит "highlight" в списке классов */
-/*[class~="highlight"] {
+ Выбирает все элементы, у которых атрибут class содержит "highlight" в списке классов 
+[class~="highlight"] {
     background-color: yellow;
 }
 
 p[lang|="ru"] {
     font-style: italic;
-}*/
+}
 
-/* Добавляет стрелку перед каждым элементом списка */
-/*li::before {
+ Добавляет стрелку перед каждым элементом списка 
+li::before {
     content: "→ ";
     color: red;
-}*/
+}
 
-/* Добавляет точку после каждого элемента списка */
-/*li::after {
+ Добавляет точку после каждого элемента списка 
+li::after {
     content: " •";
     color: blue;
-}*/
+}
 
-/* Увеличивает и изменяет цвет первой буквы каждого абзаца */
-/*p::first-letter {
+ Увеличивает и изменяет цвет первой буквы каждого абзаца 
+p::first-letter {
     font-size: 2em;
     color: green;
-}*/
+}
 
-/* Изменяет цвет и делает полужирной первую строку каждого абзаца */
-/*p::first-line {
+ Изменяет цвет и делает полужирной первую строку каждого абзаца 
+p::first-line {
     color: navy;
     font-weight: bold;
 }
 
 body {
-    background-color: rgb(240, 248, 255);*/ /* Цвет фона: aliceblue */
-/*}
+    background-color: rgb(240, 248, 255);  Цвет фона: aliceblue 
+}
 
 h1 {
-    color: #4CAF50;*/ /* Зеленый */
-/*}
+    color: #4CAF50;  Зеленый 
+}
 
 p {
-    color: hsl(210, 100%, 50%);*/ /* Синий */
-/*}
+    color: hsl(210, 100%, 50%);  Синий 
+}
 
 div {
-    background-color: rgba(255, 99, 71, 0.6);*/ /* Полупрозрачный цвет томата */
-/*}
+    background-color: rgba(255, 99, 71, 0.6);  Полупрозрачный цвет томата 
+}
 
 span {
-    color: hsla(210, 100%, 50%, 0.8);*/ /* Полупрозрачный синий */
-/*}
+    color: hsla(210, 100%, 50%, 0.8);  Полупрозрачный синий 
+}
 
 :root {
     --bg-color: #f0f0f0;
@@ -168,15 +799,15 @@ p {
 }
 
 p {
-    font-size: 150%;*/ /* 150% базового размера шрифта */
-    /*font-size: 1.5em;*/ /* 1.5 раза больше базового размера шрифта */
-    /*font-size: 1.5rem;*/ /* размер относительно размера шрифта элемента <html> */
-/*}
+    font-size: 150%;  150% базового размера шрифта 
+    font-size: 1.5em;  1.5 раза больше базового размера шрифта 
+    font-size: 1.5rem;  размер относительно размера шрифта элемента <html> 
+}
 
 p {
-    font-size: 2vw;*/ /* 2% от ширины "вьюпорта" */
-    /*font-size: 2vh;*/ /* 2% от высоты "вьюпорта" */
-/*}
+    font-size: 2vw;  2% от ширины "вьюпорта" 
+    font-size: 2vh;  2% от высоты "вьюпорта" 
+}
 
 body {
     font-family: 'Times New Roman', serif;
@@ -210,4 +841,5 @@ body {
 
 body {
     font-family: 'MyCustomFont', sans-serif;
-}*/
+}
+*/
