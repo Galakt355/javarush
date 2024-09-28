@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="style" href="css.css" type="text/css">
+</head>
+<body>
+    <link rel="stylesheet" href="myscripts.js" type="text/Javascript">
+    <details id="details1" open>
+        <summary>Подробнее</summary>
+        <p>Это скрытое содержимое, которое становится видимым при раскрытии блока.</p>
+    </details>
+    <details id="details2">
+        <summary>Основная информация</summary>
+        <p>Эта информация видна по умолчанию, так как атрибут open установлен.</p>
+    </details>
+    <button id="toggleDetails">Свернуть/развернуть</button>
+    <button id="toggleDetails2">Свернуть/развернуть</button>
+
+    <script>
+        const k = document.getElementById('details1');
+        const k2 = document.getElementById('details2');
+        document.getElementById('toggleDetails').addEventListener('click', () => {
+            k.open = !k.open;
+        });
+        document.getElementById('toggleDetails2').addEventListener('click', () => {
+            k2.open = !k2.open;
+        });
+    </script>
+</body>
+</html>
