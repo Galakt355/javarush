@@ -2,6 +2,91 @@
 
 
 
+/*.table-container3 {
+    display: table;
+    width: 100%;
+    height: 50vh;
+    background-color: #f39c12;
+}
+
+.table-cell3 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.centered-box3 {
+    display: inline-block;
+    background-color: #3498db;
+    padding: 20px;
+    color: white;
+}
+
+.container2 {
+    position: relative;
+    height: 30vh;
+    background-color: #e74c3c;
+}
+
+.centered-box2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.grid-container {
+    display: grid;
+    place-items: center;
+    height: 30vh;
+    background-color: #9b59b6;
+}
+
+.centered-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #2ecc71;
+}
+
+.centered-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+}
+
+.container {
+    text-align: center;
+    background-color: #f1c40f;
+    padding: 20px;
+}
+
+.inline-element {
+    background-color: #e74c3c;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.centered-box {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 0 auto;
+}*/
+
+
+
 /*.wrapper {
     height: 200px;
     overflow: auto;
